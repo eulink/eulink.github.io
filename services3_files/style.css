@@ -1,0 +1,160 @@
+/* CSS Document */
+
+* {
+	margin:0; /*padding:0;*/
+	font-size:100%;
+}
+
+body{
+	background:#FFFFFF;
+	text-align:center;
+}
+#shuul 
+{ 
+background-image:url(images/li-list.png)/*tpa=http://www.navigator-logistics.com/images/li-list.png*/; background-repeat:no-repeat; background-position:top;
+}
+  
+img {vertical-align:top;}
+a img { border:0;}
+
+ul { list-style:none;}
+
+.left { float:left;}
+.right {float:right;}
+.clear  { clear:both;}
+
+
+html, input, textarea
+	{
+		font-family:Arial;
+		font-size:0.75em;
+		line-height:1.25em;
+		color:#2c2c2c;
+	}
+
+input, select { vertical-align:middle; font-weight:normal;}
+
+a.rcolumn {color:#000000;}
+a.rcolumn:hover{color:#58b7d5; text-decoration:none;}
+
+a {color:#6e778a;}
+a:hover{text-decoration:none;}
+p {padding-top:15px;}
+
+/* ============================= main layout ====================== */
+
+h2 {font-size:1.083em; line-height:1em; margin:14px 0 19px 0;}
+
+li { background:url(images/list_bg.gif)/*tpa=http://www.navigator-logistics.com/images/list_bg.gif*/ no-repeat 0 6px; padding-left:11px; margin-bottom:15px;}
+li a {color:#53b4d4; text-decoration:none;}
+li a:hover {text-decoration:underline;}
+
+.list li {margin:0; background:url(images/list2_bg.gif)/*tpa=http://www.navigator-logistics.com/images/list2_bg.gif*/ no-repeat 0 6px;}
+.list li a {line-height:1.667em; color:#6e778a;}
+
+.imgindent {margin:0 0px 0 0; float:left;}
+.imgindent3 {margin:0 0px 0 0; float:left;}
+.imgindent2 {margin:0 0px 33px 0; float:left;}
+.title {margin-bottom:17px;}
+.title2 {margin-bottom:10px;}
+.button {margin-top:15px;}
+
+cite {font-style:normal; display:block; margin:10px 0 10px 0;}
+.blue {color:#53b4d4;}
+
+/* ============================= header ====================== */
+
+#header .left {padding:26px 0 20px 0;}
+#header .right { padding-right:4px;}
+#header .music { padding:45px 0 20px 0;}
+.slogan {padding:0px 55px 0px 0; background:url(images/header_bg.jpg)/*tpa=http://www.navigator-logistics.com/images/header_bg.jpg*/ top left no-repeat; text-align: right}
+#header .button {margin-top:9px;}
+
+/* ============================= middle ====================== */
+
+.box {background:#f8f8f8 url(images/box_bottom_tall.gif)/*tpa=http://www.navigator-logistics.com/images/box_bottom_tall.gif*/ bottom repeat-x;}
+.box .tall_right {background:url(images/box_right_tall.gif)/*tpa=http://www.navigator-logistics.com/images/box_right_tall.gif*/ right repeat-y;}
+.box .tall_left {background:url(images/box_left_tall.gif)/*tpa=http://www.navigator-logistics.com/images/box_left_tall.gif*/ left repeat-y;}
+.box .tall_top {background:url(images/box_top_tall.gif)/*tpa=http://www.navigator-logistics.com/images/box_top_tall.gif*/ top repeat-x;}
+.box .corner_bottom_right {background:url(images/box_corner_bottom_right.gif)/*tpa=http://www.navigator-logistics.com/images/box_corner_bottom_right.gif*/ bottom right no-repeat;}
+.box .corner_bottom_left {background:url(images/box_corner_bottom_left.gif)/*tpa=http://www.navigator-logistics.com/images/box_corner_bottom_left.gif*/ bottom left no-repeat;}
+.box .corner_top_right {background:url(images/box_corner_top_right.gif)/*tpa=http://www.navigator-logistics.com/images/box_corner_top_right.gif*/ top right no-repeat;}
+.box .corner_top_left {background:url(images/box_corner_top_left.gif)/*tpa=http://www.navigator-logistics.com/images/box_corner_top_left.gif*/ top left no-repeat; width:100%;}
+.box .padding {padding:23px 20px 30px 25px;}
+.text1 {
+TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; LINE-HEIGHT: 32px; FONT-FAMILY: "Arial", "verdana", "Helvetica"; COLOR: #000000; FONT-SIZE: 12px
+}
+.text8 {
+LINE-HEIGHT: 18px; LINE-HEIGHT: 32px; FONT-FAMILY: "Arial", "verdana", "Helvetica"; COLOR: #004dac; FONT-SIZE: 12px
+}
+.row1 {padding:16px 0 24px 0;}
+.row1 .column_padding {margin-right:5px; padding:0;}
+.column_padding {padding-right:50px;}
+.phone {margin-top:9px;}
+.indent {padding:0 24px 17px 24px;}
+.content1 {padding:2px 35px 0 21px;}
+.ul {margin-top:15px;}
+
+.hor_line_dark {background:url(images/hor_dark_line.gif)/*tpa=http://www.navigator-logistics.com/images/hor_dark_line.gif*/ bottom repeat-x; padding:0 8px}
+.hor_line_light {background:url(images/hor_light_line.gif)/*tpa=http://www.navigator-logistics.com/images/hor_light_line.gif*/ bottom repeat-x; padding:0 10px 17px 13px;}
+
+/*=======footer===========*/
+#footer{background:url(images/footer_bg.jpg)/*tpa=http://www.navigator-logistics.com/images/footer_bg.jpg*/ left top repeat-x; margin:0 0px 0 0px; color:#707576; font-size:0.83em;}
+#footer .left{background:url(images/footer_left.jpg)/*tpa=http://www.navigator-logistics.com/images/footer_left.jpg*/ left top no-repeat;}
+#footer .right{background:url(images/footer_right.jpg)/*tpa=http://www.navigator-logistics.com/images/footer_right.jpg*/ right top no-repeat; padding:10px 300px 10px 5px;}
+#footer a{color:#707576; text-decoration:none;}
+#footer a:hover{text-decoration:underline;}
+
+#footer .logos{padding:11px 12px 7px 20px; background:url(images/logos_bg.jpg)/*tpa=http://www.navigator-logistics.com/images/logos_bg.jpg*/ left top no-repeat; float:left; margin-right:20px;}
+#footer .logos img{margin-right:10px; float:left;}
+
+#footer span{color:#74797C; font-size:12px; word-spacing:16px; padding-top:8px; display:block;}
+#footer span a{color:#005D6E; text-decoration:none; font-weight:bold;}
+#footer span a:hover{text-decoration:underline;}
+/*=====//footer===========*/
+
+
+/* ============================= index ============================= */
+
+#index .indent {padding:0 24px 8px 24px;}
+#index .column2 .box .padding {padding:23px 34px 53px 25px;}
+#index .column3 .box .padding {padding:23px 34px 40px 25px;}
+
+/* ============================= index-2 =========================== */
+
+#index_2 .indent {padding:16px 1px 0 0;}
+#index_2 .column_padding {padding-right:8px;}
+#index_2 h2 {margin-top:22px;}
+#index_2 .column2 ul {margin-left:201px;}
+#index_2 .box .padding {padding:23px 20px 52px 25px;}
+
+
+
+/* ============================= index-3 =========================== */
+
+#index_3 .indent {padding:0 24px 27px 24px;}
+#index_3 .box .padding {padding:23px 20px 30px 22px;}
+#index_3 .column2 ul {margin-left:124px;}
+
+
+/* ============================= index-3 =========================== */
+
+#index_4 .indent {padding:16px 0 0 0;}
+#index_4 .box {margin-bottom:4px;}
+#index_4 .box .padding {padding:23px 20px 28px 22px;}
+#index_4 .column_padding {padding-right:24px;}
+#index_4 .content1 {padding:2px 8px 0 24px;}
+
+#index_4 .hor_line_light {padding:23px 0 0 16px;}
+/* ============================= index-4 =========================== */
+
+
+
+form .rowi {height:26px;}
+
+.input {width:204px; height:18px; padding:0 0 0 5px; font-size:0.918em;}
+textarea {width:204px; height:113px; padding:0 0 0 5px; overflow:auto; font-size:0.918em; margin-bottom:4px}
+
+/* ============================= index-5 =========================== */
+
+#index_5 .indent {padding:25px 27px 22px 24px;}
